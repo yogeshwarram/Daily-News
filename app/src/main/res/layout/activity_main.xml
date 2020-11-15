@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Category"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+
+        />
+    <View
+        android:background="#CCCCCC"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        android:layout_centerVertical ="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India News"
+        style="@style/CategoryStyle"
+        android:id="@+id/india"
+        />
+    <View
+        android:background="#CCCCCC"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        android:layout_centerVertical ="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports News"
+        style="@style/CategoryStyle"
+        android:id="@+id/sports"
+        />
+    <View
+        android:background="#CCCCCC"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        android:layout_centerVertical ="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technology"
+        style="@style/CategoryStyle"
+        android:id="@+id/tech"
+        />
+    <View
+        android:background="#CCCCCC"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        android:layout_centerVertical ="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Political News"
+        style="@style/CategoryStyle"
+        android:id="@+id/politics"
+        />
+    <View android:id="@+id/separator"
+        android:background="#CCCCCC"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        android:layout_centerVertical ="true"
+        android:layout_alignParentTop="true"/>
+</LinearLayout>
